@@ -18,14 +18,14 @@ h1 {
 ul {
   border-right: 1px solid gray;
   text-align: center;
-  width: 90px;
+  width: 110px;
   padding: 5px;
   margin: 0;
 }
 
 #grid {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 120px 1fr;
   border-top: 1px solid gray;
 }
 
