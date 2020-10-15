@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Macklin";
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+ol {
+  border-right: 1px solid gray;
+  width: 120px;
+  padding: 20px;
+  margin: 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  border-top: 1px solid gray;
+}
+
+#grid #article {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+@media(max-width:800px) {
+  #grid {
+    display: block;
+  }
+
+  ol {
+    border-right: none;
+  }
+
+  h1 {
+    border-bottom: none;
+  }
+}

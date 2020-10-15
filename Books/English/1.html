@@ -1,0 +1,64 @@
+<!-- 본문을 설명-->
+<!doctype html>
+<html>
+
+<head>
+  <title>JHSHIN-BOOKS-EN</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .first {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<!-- 본문 -->
+<body>
+  <h1><a href="index.html" style=color:blue;>English Books</a></h1>
+  <h2 style="text-align:right" ;>read by Jonathan</h2>
+  <input type="button" value="night" onclick="
+   nightDayHandler(this);">
+  <h2></h2>
+  <h2>Book List</h2>
+  <h2></h2>
+  <script>
+    var book_list = ['Dog Man', 'Flat Stanley'];
+    i = 0;
+    while (i < book_list.length) {
+      document.write('<li>' + book_list[i] + '</li>');
+      i = i + 1;
+    }
+  </script>
+
+  <div id="grid">
+    <ol>
+      <img src="1_dogman.jpg" width="120" height="150">
+    </ol>
+    <div id="article">
+      <h2><a href="https://pilkey.com/series/dog-man" style=color:blue;><u>DOG MAN</u></a></h2>
+      <p><span class="first">Dog Man</span> is a comedic graphic novel series by American cartoonist Dav Pilkey (author of the Captain Underpants books) published by Scholastic Corporation that focuses on a part-dog,
+        part-man
+        police officer. The book series includes nine books, the first released in 2016 and the latest in 2020. The latest book released in September 2020, making for a total of 10 books in the series. The books are very popular in Australia and
+        America. There is one upcoming book in the series, named Dog Man: Mothering Heights. It will come out on March 23, 2021.</p>
+    </div>
+  </div>
+  <div id="grid">
+    <ol>
+      <img src="2_flatstanley.jpg" width="120" height="150">
+    </ol>
+    <div id="article">
+      <h2><a href="https://www.flatstanleybooks.com/" style=color:blue;><u>FLAT STANLEY</u></a></h2>
+      <p><span class="first">Flat Stanley</span> is an American children's book series written by author Jeff Brown (January 1, 1926 – December 3, 2003). The idea for the book began as a bedtime story for Brown’s sons, which
+        Brown turned into the first Flat Stanley book. The first book featured illustrations by Tomi Ungerer and was published in 1964. Brown did not continue the series until more than two decades later, when he published five more books: Stanley
+        and the Magic Lamp, Stanley in Space, Stanley’s Christmas Adventure, Invisible Stanley, and Stanley, Flat Again! By 2003, the Flat Stanley series had sold almost a million copies in the United States, and the stories had been translated into
+        French, German, Spanish, Italian, Japanese, and Hebrew. Since Brown's death in 2003, other children's book authors, including Sara Pennypacker and Josh Greenhut, have continued the series under a new name, Flat Stanley's Worldwide Adventures.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
